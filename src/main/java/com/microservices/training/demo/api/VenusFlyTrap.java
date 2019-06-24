@@ -7,6 +7,12 @@ public class VenusFlyTrap extends Plant {
 		System.out.println("Eat like a " + this.getType());
 		
 	}
+	
+	@Override
+	public void eatBugs() {
+		System.out.println("Eat bugs like a " + this.getType());
+		
+	}
 
 	@Override
 	public void breed() {

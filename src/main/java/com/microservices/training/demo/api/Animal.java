@@ -1,6 +1,6 @@
 package com.microservices.training.demo.api;
 
-public abstract class Animal implements ILivingBeing {
+public abstract class Animal implements ILivingBeing, IBugEater {
 	
 	private String type = "Animal";
 	

@@ -7,6 +7,12 @@ public class Aardvark extends Animal {
 		System.out.println("Eat like an " + this.getType());
 	
 	}
+	
+	@Override
+	public void eatBugs() {
+		System.out.println("Eat bugs like an " + this.getType());
+	
+	}
 
 	@Override
 	public void breed() {

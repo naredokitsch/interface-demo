@@ -1,6 +1,6 @@
 package com.microservices.training.demo.api;
 
-public class VenusFlyTrap extends Plant {
+public class VenusFlyTrap extends Plant implements IBugEater {
 
 	@Override
 	public void eat() {

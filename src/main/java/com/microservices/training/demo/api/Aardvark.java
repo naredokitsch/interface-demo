@@ -1,6 +1,6 @@
 package com.microservices.training.demo.api;
 
-public class Aardvark extends Animal {
+public class Aardvark extends Animal implements IBugEater {
 
 	@Override
 	public void eat() {
@@ -10,8 +10,8 @@ public class Aardvark extends Animal {
 	
 	@Override
 	public void eatBugs() {
-		System.out.println("Eat bugs like an " + this.getType());
-	
+		System.out.println("Eat bugs like a " + this.getType());
+		
 	}
 
 	@Override

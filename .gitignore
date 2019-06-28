@@ -29,3 +29,7 @@ build/
 
 ### VS Code ###
 .vscode/
+/bin/
+
+### DOCUMENTOS DE MAC ###
+.DS_Store
